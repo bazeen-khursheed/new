@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Spicy+Rice&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "brittany";
+    src: url(./font/BrittanySignature.ttf);
+}
+
+@font-face {
+    font-family: "sens";
+    src: url(./font/Akira\ Expanded\ Demo.otf);
+}
+
+@font-face {
+    font-family: "poppins-10";
+    src: url(./font/BrittanySignature.ttf);
+}
+img{
+    margin-left: 30px;
+    width: 150px;
+    
+}
+a{
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 20px;
+    padding-left: 40px;
+    color:white;
+    font-family: "poppins";
+}
+a:hover{
+   color: #00cccc;
+}
+button{
+    border-radius: 40px;
+    font-family: "poppins";
+}
+.btn1{
+    padding: 7px 10px;
+    width: 130px;
+    font-size: 20px;
+    margin-left:130px;
+    background-color: #00cccc;
+    border : 1px solid #00cccc;
+    color: white;
+}
+.btn1:hover{
+    background-color: #fcd700;
+}
+.btn2:hover{
+    background-color: #00cccc;
+}
+.btn2{
+    padding: 7px 10px;
+    width: 130px;
+    font-size: 20px;
+    margin-left:60px;
+    background-color:  #fcd700;
+    border : 1px solid  #fcd700;
+    color: white;
+    
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.con{
+
+
+    background-image: url(./lap.png);
+    
+    background-repeat: no-repeat;
+   height: 600px;
+    background-size: cover;
+   object-fit: cover;
+
+} 
+
+
+h1{
+    color: white;
+    font-family: "sens";
+    font-size: 50px;
+    margin-left: 30px;
+    margin-top: 120px;
+    
+    
+    
+}
+.main1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hea2{
+    font-family: "sour gummy";
+    color: #fcd700;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 40px;
+}
+.btn3{
+    padding: 7px 10px;
+    font-size: 15px;
+    width: 130px;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin-left: 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.p{
+    font-size: 25px;
+    font-family: "sour gummy";
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.p2{
+    font-size: 20px;
+}
+.ui{
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.graphic{
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.graphics{
+
+    width: 200px;
+    height: auto;
+    animation: bounce 2s infinite, slide 3s ease-in-out;
+}
+.p3{
+    font-size: 60px;
+   margin-left: 100px;
+    font-family: "brittany";
+    word-spacing: 20px;
+    margin-top: 130px;
+}
+.code{
+    width: 500px;
+    margin-left: 70px;
+    margin-top: 30px;
+    
+}
+.main3{
+    display: flex;
+}
+.p4{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: "roboto";
+    background: -webkit-linear-gradient(right,#00cccc, #fcd700);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: sans-serif;
+   
+   
+}
+.he3{
+    font-size: 60px;
+    margin-left: 20px;
+    font-family: "roboto";
+}
+.main4{
+    display: flex;
+    margin-top: 50px;
+   
+    
+}
+.kashan{
+    width: 600px;
+    border-radius: 0px;
+    height: 450px;
+}
+.p5{
+    margin-top: 40px;
+    font-size: 25px;
+    font-family: "poppins";
+    margin-left: 30px;
+}
+.con1{
+    flex-direction: column;
+    background-color: #fcd700;
+}
+.now{
+    margin-left: 550px;
+    width: 200px;
+    padding-top: 50px;
+    
+}
+.full{
+    font-size: 50px;
+    font-family: "brittany";
+    background: -webkit-linear-gradient(bottom,#00cccc, #fcd700);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    position: relative; top: 50px;
+    margin-left: 60px;
+}
+.cour{
+    font-size: 70px;
+    font-family: "sens";
+    
+    margin-left: 470px;
+}
+.h02{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    text-transform: uppercase;
+    font-family: "poppins";
+    font-weight: 60px;
+    padding-top: 20px;
+}
+.pg02{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-family: "poppins";
+    font-weight: 50px;
+   
+    padding-bottom: 20px;
+  ;
+}
+.p03{
+    margin-left: 40px;
+}
+.big{
+    background: -webkit-linear-gradient(top,#00cccc, #fcd700);
+
+    -webkit-text-fill-color: white;
+    width: 570px;
+    padding-left: 20px;
+    margin-left: 380px;
+
+border-radius: 7px;
+}
+.contain3{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    margin-left: 380px;
+}
+.j{
+    background: -webkit-linear-gradient(top,#00cccc, #fcd700);
+    width: 270px;
+    padding: 10px;
+    border-radius: 7px;
+    -webkit-text-fill-color: white;
+  
+}
+.ji{
+    background: -webkit-linear-gradient(top,#00cccc, #fcd700);
+    width: 270px;
+    padding: 10px;
+    margin-left: 20px;
+    -webkit-text-fill-color: white;
+    border-radius: 7px;
+}
+.j2{
+    position: relative; right: 30px;
+}
+.j1h{
+   font-family: "brittany";
+   background: -webkit-linear-gradient(bottom,#00cccc, #fcd700);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   position: relative; top: 20px;
+   font-size: 30px;
+}
+.j2h{
+    font-family: "sens";
+    background: -webkit-linear-gradient(bottom,#00cccc, #fcd700);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: black;
+    font-size: 40px;
+}
+.info{
+    display: flex;
+    
+}
+.call{
+    background: -webkit-linear-gradient(bottom,#00cccc, #fcd700);
+    padding: 8px 10px;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    border-radius: 7px;
+}
+.infor{
+    margin-left: 10px;
+    font-family: "poppins";
+    color: #00cccc;
+}
+.info .sp{
+    font-size: 15px;
+   
+}
+
+.sp{
+    font-weight: 30px;
+    color: black;
+    
+}
+.branch{
+    margin-top: 40px;
+    
+}
+
+.left p{
+    margin-left: 10px;
+    font-family: "poppins";
+    color: #00cccc;
+    font-size: 12px;
+}
+.left span{
+    font-weight: 30px;
+    color: black;
+    font-family: "poppins";
+    margin-left: 10px;
+    font-size: 12px;
+}
+.right img{
+    width: 500px;
+}
+.right img{
+    width: 220px;
+    height: 220px;
+    position: relative; bottom: 180px; right: 68px;
+     
+}
+.huge{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 370px;
+    margin-top: 30px;
+}
+.div1{
+    background: -webkit-linear-gradient(top,#00cccc, #fcd700);
+   margin-right: 310px;
+   border-radius: 7px;
+   width: 130px;
+   height: 150px;  
+   
+}
+.hn{
+    font-family: "brittany";
+    background: -webkit-linear-gradient(top,#00cccc, #fcd700);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   position: relative; bottom: 370px; right: 130px;
+   
+}
+.hm{
+    font-family: "roboto";
+   background-color: black;
+   color: white;
+   width: 100px;
+   padding:0px  10px;
+   margin-left: 10px;
+   position: relative; bottom: 370px; right: 130px;
+   
+}
+.cn{
+    background-color: rgb(35, 35, 35);
+    height: 300px;
+    
+}
+
+.i1 h2{
+    color: white;
+    font-family: "poppins";
+    margin-top: 40px;
+    font-size: 30px;
+
+}
+.i2 h2{
+    color: white;
+    font-family: "poppins";
+    margin-top: 40px;
+    font-size: 30px;
+
+}
+.fa-phone{
+    border: none;
+  
+}
+.i2{
+    display: flex;
+    margin-left: 900px;
+    position: relative; bottom: 90px;
+    gap: 30px;
+}
+
+hr{
+    width: 95%;
+    margin-left: 30px;
+}
+.ia i{
+    color: white;
+    margin-top: 40px;
+    font-size: 30px;
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 10px;
+    gap: 30px;
+}
+.ib i{
+    color: white;
+    margin-top: 40px;
+    font-size: 30px;
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 10px;
+}
+.i1{
+    display: flex;
+    gap: 30px;
+}
+.aj{
+    margin-left: 570px;
+}
+.ak{
+    color: white;
+    font-size: 25px;
+    font-family: "poppins";
+   position: relative;  top: 30px;
+   margin-left: 30px;
+}
